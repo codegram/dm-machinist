@@ -4,8 +4,8 @@ require File.expand_path('../lib/dm-machinist/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Josep Jaume"]
   gem.email         = ["josepjaume@gmail.com"]
-  gem.description   = %q{dm-machinist is an adapter for machinist 2.0 to work with datamapper}
-  gem.summary       = %q{dm-machinist is an adapter for machinist 2.0 to work with datamapper}
+  gem.description   = %q{dm-machinist is a datamapper adapter for machinist 2.0}
+  gem.summary   = %q{dm-machinist is a datamapper adapter for machinist 2.0}
   gem.homepage      = 'http://github.com/codegram/dm-machinist'
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
